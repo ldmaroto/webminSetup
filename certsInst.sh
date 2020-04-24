@@ -25,9 +25,9 @@ function spin(){
 }
 
 function copycerts(){
-    cp ˜/webminSetup/certs/miniserv.pem /etc/webmin/miniserv.pem
-    cp ˜/webminSetup/certs/miniserv.cert /etc/webmin/miniserv.cert
-    cp ˜/webminSetup/certs/miniserv.chain /etc/webmin/miniserv.chain
+    cp ~/webminSetup/certs/miniserv.pem /etc/webmin/miniserv.pem
+    cp ~/webminSetup/certs/miniserv.cert /etc/webmin/miniserv.cert
+    cp ~/webminSetup/certs/miniserv.chain /etc/webmin/miniserv.chain
     sleep 5
 }
 
